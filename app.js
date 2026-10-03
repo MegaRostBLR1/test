@@ -46,12 +46,12 @@ const APP_CONFIG = {
       js: './components/pages/page-5/script.js',
       init: 'initPage5'
     },
-    'page-6': {
-      title: 'Страница 6',
-      html: './components/pages/page-6/index.html',
-      css: './components/pages/page-6/style.css',
-      js: './components/pages/page-6/script.js',
-      init: 'initPage6'
+    'prices': {
+      title: 'Цены',
+      html: './components/pages/prices/prices.html',
+      css: './components/pages/prices/prices.css',
+      js: './components/pages/prices/prices.js',
+      init: 'initPrices'
     },
     'page-7': {
       title: 'Страница 7',
