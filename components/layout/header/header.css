@@ -382,7 +382,8 @@
     display: flex;
 }
 .header__icon { display: inline-block; flex-shrink: 0; }
-.header__icon--chevron { width: 1.3333rem; height: 1.3333rem; }
+.header__icon--chevron { width: 0.6667rem; height: 0.4444rem; }
+.header__icon--nav-arrow { width: 0.6667rem; height: 0.6667rem; }
 .header__icon--solution { width: 1.4444rem; height: 1.4444rem; }
 .header__location-country,
 .header__location-money,
