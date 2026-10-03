@@ -9,14 +9,14 @@ const APP_CONFIG = {
     css: './components/footer/style.css',
     js: './components/footer/script.js'
   },
-  defaultPage: 'page-1',
+  defaultPage: 'home',
   pages: {
-    'page-1': {
-      title: 'Страница 1',
-      html: './components/pages/page-1/index.html',
-      css: './components/pages/page-1/style.css',
-      js: './components/pages/page-1/script.js',
-      init: 'initPage1'
+    'home': {
+      title: 'Главная',
+      html: './components/pages/home/home.html',
+      css: './components/pages/home/home.css',
+      js: './components/pages/home/home.js',
+      init: 'initHome'
     },
     'page-2': {
       title: 'Страница 2',
