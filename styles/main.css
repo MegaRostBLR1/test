@@ -5,25 +5,25 @@ html {
 @font-face {
   font-family: 'Onest-Bold';
   font-weight: 700;
-  src: url('../assets/fonts/Onest-Bold.woff2') format('woff2');
+  src: url('../static/fonts/Onest-Bold.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Onest-SemiBold';
   font-weight: 600;
-  src: url('../assets/fonts/Onest-SemiBold.woff2') format('woff2');
+  src: url('../static/fonts/Onest-SemiBold.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Onest-Medium';
   font-weight: 500;
-  src: url('../assets/fonts/Onest-Medium.woff2') format('woff2');
+  src: url('../static/fonts/Onest-Medium.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Onest-Regular';
   font-weight: 400;
-  src: url('../assets/fonts/Onest-Regular.woff2') format('woff2');
+  src: url('../static/fonts/Onest-Regular.woff2') format('woff2');
 }
 
 * {
