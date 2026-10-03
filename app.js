@@ -120,7 +120,7 @@ function loadScript(url) {
 }
 
 function getPageName() {
-  return window.location.hash.replace(/^#\\/?/, '') || APP_CONFIG.defaultPage;
+  return window.location.hash.replace(/^#\/?/, '') || APP_CONFIG.defaultPage;
 }
 
 async function renderPage(pageName) {
