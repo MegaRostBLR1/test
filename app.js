@@ -53,12 +53,12 @@ const APP_CONFIG = {
       js: './components/pages/prices/prices.js',
       init: 'initPrices'
     },
-    'page-7': {
-      title: 'Страница 7',
-      html: './components/pages/page-7/index.html',
-      css: './components/pages/page-7/style.css',
-      js: './components/pages/page-7/script.js',
-      init: 'initPage7'
+    'contacts': {
+      title: 'Контакты',
+      html: './components/pages/contacts/contacts.html',
+      css: './components/pages/contacts/contacts.css',
+      js: './components/pages/contacts/contacts.js',
+      init: 'initContacts'
     }
   }
 };
