@@ -39,6 +39,41 @@ const APP_CONFIG = {
       js: './components/pages/press-center/press-center.js',
       init: 'initPressCenter'
     },
+    'news': {
+      title: 'Новости',
+      html: './components/pages/press-center/news/news.html',
+      css: './components/pages/press-center/news/news.css',
+      js: './components/pages/press-center/news/news.js',
+      init: 'initNews'
+    },
+    'news-item': {
+      title: 'Новость',
+      html: './components/pages/press-center/news-item/news-item.html',
+      css: './components/pages/press-center/news-item/news-item.css',
+      js: './components/pages/press-center/news-item/news-item.js',
+      init: 'initNewsItem'
+    },
+    'video': {
+      title: 'Видео',
+      html: './components/pages/press-center/video/video.html',
+      css: './components/pages/press-center/video/video.css',
+      js: './components/pages/press-center/video/video.js',
+      init: 'initVideo'
+    },
+    'faq': {
+      title: 'F.A.Q.',
+      html: './components/pages/press-center/faq/faq.html',
+      css: './components/pages/press-center/faq/faq.css',
+      js: './components/pages/press-center/faq/faq.js',
+      init: 'initFaq'
+    },
+    'articles': {
+      title: 'Статьи',
+      html: './components/pages/press-center/articles/articles.html',
+      css: './components/pages/press-center/articles/articles.css',
+      js: './components/pages/press-center/articles/articles.js',
+      init: 'initArticles'
+    },
     'about': {
       title: 'О компании',
       html: './components/pages/about/about.html',
