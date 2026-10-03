@@ -1,8 +1,8 @@
 const APP_CONFIG = {
   header: {
-    html: './components/header/index.html',
-    css: './components/header/style.css',
-    js: './components/header/script.js'
+    html: './components/header/header.html',
+    css: './components/header/header.css',
+    js: './components/header/header.js'
   },
   footer: {
     html: './components/footer/index.html',
