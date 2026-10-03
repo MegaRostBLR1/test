@@ -39,12 +39,12 @@ const APP_CONFIG = {
       js: './components/pages/press-center/press-center.js',
       init: 'initPressCenter'
     },
-    'page-5': {
-      title: 'Страница 5',
-      html: './components/pages/page-5/index.html',
-      css: './components/pages/page-5/style.css',
-      js: './components/pages/page-5/script.js',
-      init: 'initPage5'
+    'about': {
+      title: 'О компании',
+      html: './components/pages/about/about.html',
+      css: './components/pages/about/about.css',
+      js: './components/pages/about/about.js',
+      init: 'initAbout'
     },
     'prices': {
       title: 'Цены',
