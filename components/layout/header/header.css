@@ -394,7 +394,7 @@
 .nav-list__item--factory > .nav-link,
 .header__contacts-phone { display: flex; align-items: center; gap: 0.2778rem; }
 .header__contacts-social a { display: flex; align-items: center; justify-content: center; width: 1.3333rem; height: 1.3333rem; }
-.header__contacts-social img { display: block; width: 100%; height: 100%; }
+.header__contacts-social img { display: block; width: 1.3333rem; height: 1.3333rem; }
 .header-bottom__solutions-button { display: flex; align-items: center; justify-content: center; }
 .header-bottom__search { position: relative; }
-.header-bottom__search-icon { position: absolute; left: 1.6667rem; top: 50%; width: 1.4444rem; height: 1.4444rem; transform: translateY(-50%); pointer-events: none; }
+.header-bottom__search-icon { position: absolute; left: 1.6667rem; top: 1.5rem; width: 1.6667rem; height: 1.6667rem; pointer-events: none; }
