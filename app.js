@@ -25,12 +25,12 @@ const APP_CONFIG = {
       js: './components/pages/services/services.js',
       init: 'initServices'
     },
-    'page-3': {
-      title: 'Страница 3',
-      html: './components/pages/page-3/index.html',
-      css: './components/pages/page-3/style.css',
-      js: './components/pages/page-3/script.js',
-      init: 'initPage3'
+    'objects': {
+      title: 'Объекты',
+      html: './components/pages/objects/objects.html',
+      css: './components/pages/objects/objects.css',
+      js: './components/pages/objects/objects.js',
+      init: 'initObjects'
     },
     'page-4': {
       title: 'Страница 4',
