@@ -32,12 +32,12 @@ const APP_CONFIG = {
       js: './components/pages/objects/objects.js',
       init: 'initObjects'
     },
-    'page-4': {
-      title: 'Страница 4',
-      html: './components/pages/page-4/index.html',
-      css: './components/pages/page-4/style.css',
-      js: './components/pages/page-4/script.js',
-      init: 'initPage4'
+    'press-center': {
+      title: 'Пресс-центр',
+      html: './components/pages/press-center/press-center.html',
+      css: './components/pages/press-center/press-center.css',
+      js: './components/pages/press-center/press-center.js',
+      init: 'initPressCenter'
     },
     'page-5': {
       title: 'Страница 5',
@@ -120,7 +120,7 @@ function loadScript(url) {
 }
 
 function getPageName() {
-  return window.location.hash.replace(/^#\/?/, '') || APP_CONFIG.defaultPage;
+  return window.location.hash.replace(/^#\\/?/, '') || APP_CONFIG.defaultPage;
 }
 
 async function renderPage(pageName) {
