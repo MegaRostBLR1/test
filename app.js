@@ -18,12 +18,12 @@ const APP_CONFIG = {
       js: './components/pages/home/home.js',
       init: 'initHome'
     },
-    'page-2': {
-      title: 'Страница 2',
-      html: './components/pages/page-2/index.html',
-      css: './components/pages/page-2/style.css',
-      js: './components/pages/page-2/script.js',
-      init: 'initPage2'
+    'services': {
+      title: 'Услуги',
+      html: './components/pages/services/services.html',
+      css: './components/pages/services/services.css',
+      js: './components/pages/services/services.js',
+      init: 'initServices'
     },
     'page-3': {
       title: 'Страница 3',
