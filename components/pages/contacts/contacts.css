@@ -742,7 +742,19 @@
     .contacts-representations__more svg {
         width: 1.3333rem;
         height: 1.3333rem;
-    }}
+    }
+    .contacts-links {
+        gap: 1.3333rem;
+    }
+
+    .contacts-links__title {
+        font-size: 2.2222rem;
+    }
+
+    .contacts-links__cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
 
 /* Figma tablet layouts: 1024px references. */
 @media screen and (max-width: 1100px) {
@@ -871,6 +883,25 @@
     .contacts-representations__more svg {
         width: 24px;
         height: 24px;
+    }
+
+    .contacts-links {
+        gap: 1.6667rem;
+        padding: 2.2222rem;
+    }
+
+    .contacts-links__title {
+        font-size: 1.3333rem;
+        line-height: 1.7778rem;
+    }
+
+    .contacts-links__cards {
+        gap: 0.2778rem;
+        padding: 1.8333rem 1.3333rem;
+    }
+
+    .contacts-links__card {
+        padding: 1.1111rem;
     }
 }
 
@@ -1001,6 +1032,16 @@
         width: 1.3333rem;
         height: 1.3333rem;
     }
+
+    .contacts-links {
+        gap: 1.3333rem;
+        padding: 0;
+    }
+
+    .contacts-links__title {
+        font-size: 2.2222rem;
+        line-height: 2.4444rem;
+    }
 }
 
 /* Figma 1857:104076 — compact contact layout. */
@@ -1088,58 +1129,7 @@
         grid-column: auto;
     }
 
-    .contacts-links__card--social
-}
 
-/* contacts-links responsive layouts, ordered from widest to narrowest. */
-@media screen and (max-width: 1300px) {
-    .contacts-links {
-        gap: 1.3333rem;
-    }
-
-    .contacts-links__title {
-        font-size: 2.2222rem;
-    }
-
-    .contacts-links__cards {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .contacts-links {
-        gap: 1.6667rem;
-        padding: 2.2222rem;
-    }
-
-    .contacts-links__title {
-        font-size: 1.3333rem;
-        line-height: 1.7778rem;
-    }
-
-    .contacts-links__cards {
-        gap: 0.2778rem;
-        padding: 1.8333rem 1.3333rem;
-    }
-
-    .contacts-links__card {
-        padding: 1.1111rem;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .contacts-links {
-        gap: 1.3333rem;
-        padding: 0;
-    }
-
-    .contacts-links__title {
-        font-size: 2.2222rem;
-        line-height: 2.4444rem;
-    }
-}
-
-@media screen and (max-width: 680px) {
     .contacts-links {
         align-items: stretch;
         gap: 1rem;
