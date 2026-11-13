@@ -85,7 +85,7 @@
 .contacts__office-data {
     display: flex;
     flex-direction: column;
-    gap: 1.6667rem;
+    gap: 5px;
     min-width: 0;
 }
 
@@ -193,7 +193,6 @@
     gap: 0.5556rem;
     min-width: 0;
     width: 100%;
-    padding-right: 1.7778rem;
 }
 
 .contacts__phone-number {
