@@ -541,7 +541,7 @@
     .contacts__phone-card:last-child {
         grid-column: 1 / -1;
     }
-    }
+}
 
 /* Figma 1857:103685 — 1440px representations layout. */
 @media screen and (max-width: 1440px) {
@@ -638,7 +638,7 @@
     .contacts-representations__card[data-layout-1920] {
         display: none;
     }
-    }
+}
 
 /* Responsive: <=1300px layouts. */
 @media screen and (max-width: 1300px) {
@@ -657,7 +657,7 @@
     .contacts-representations__grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
-    }
+}
 
 /* Figma tablet layouts: 1024px references. */
 @media screen and (max-width: 1100px) {
@@ -798,7 +798,7 @@
         width: 24px;
         height: 24px;
     }
-    }
+}
 
 /* Responsive: <=1000px overrides for tablet and smaller screens. */
 @media screen and (max-width: 1000px) {
@@ -822,9 +822,6 @@
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .contacts-representations {
-        padding: 1.3333rem;
-    }
 
     .contacts-representations__grid {
         grid-template-columns: minmax(0, 1fr);
@@ -940,7 +937,7 @@
         width: 1.3333rem;
         height: 1.3333rem;
     }
-    }
+}
 
 /* Figma 1857:104076 — compact contact layout. */
 @media screen and (max-width: 680px) {
@@ -1087,7 +1084,7 @@
         width: 1.1111rem;
         height: 1.1111rem;
     }
-    }
+}
 
 /* Figma 1857:104198 — mobile representations layout. */
 @media screen and (max-width: 600px) {
@@ -1200,11 +1197,11 @@
         width: 24px;
         height: 24px;
     }
-    }
+}
 
 /* Responsive: narrow mobile adjustments. */
 @media screen and (max-width: 480px) {
     .contacts__phone-card {
         padding: 1.1111rem;
     }
-    }
+}
