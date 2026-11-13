@@ -268,9 +268,9 @@
     margin: 0;
     color: #4D4D4D;
     font-family: 'Onest-SemiBold', sans-serif;
-    font-size: 2rem;
+    font-size: 2.6667rem;
     font-weight: 600;
-    line-height: 2.4444rem;
+    line-height: 3.1111rem;
     letter-spacing: 0;
     text-align: center;
     text-transform: uppercase;
@@ -547,6 +547,14 @@
 
 /* Figma 1857:103685 — 1440px representations layout. */
 @media screen and (max-width: 1440px) {
+    .contacts-links__title {
+        font-size: 2rem;
+        line-height: 2.4444rem;
+    }
+
+    .contacts-links__value {
+        font-size: 1rem;
+    }
     .contacts-representations {
         gap: 30px;
         padding: 40px;
@@ -748,7 +756,8 @@
     }
 
     .contacts-links__title {
-        font-size: 2.2222rem;
+        font-size: 2rem;
+        line-height: 2.4444rem;
     }
 
     .contacts-links__cards {
@@ -1038,10 +1047,6 @@
         padding: 0;
     }
 
-    .contacts-links__title {
-        font-size: 2.2222rem;
-        line-height: 2.4444rem;
-    }
 }
 
 /* Figma 1857:104076 — compact contact layout. */
