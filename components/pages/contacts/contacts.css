@@ -97,7 +97,7 @@
 
 .contacts__requisites {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) 8.8889rem;
+    grid-template-columns: 1.2319fr 1fr 1fr 8.8889rem;
     align-items: stretch;
     gap: 0.2778rem;
 }
