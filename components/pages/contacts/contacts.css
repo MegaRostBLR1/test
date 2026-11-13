@@ -17,6 +17,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 1.1111rem;
     color: #4D4D4D;
     font-size: 1.1111rem;
@@ -28,7 +29,9 @@
 }
 
 .contacts__title {
+    align-self: center;
     margin: 0;
+    text-align: center;
     color: #4D4D4D;
     font-family: 'Onest-Medium', sans-serif;
     font-size: 3rem;
