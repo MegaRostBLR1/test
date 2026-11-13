@@ -758,6 +758,14 @@
         gap: 0.2778rem;
     }
 
+    .contacts__requisite .contacts__label {
+        font-size: 1rem;
+    }
+
+    .contacts__requisite .contacts__value {
+        font-size: 0.8889rem;
+    }
+
     .contacts__phone-grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
