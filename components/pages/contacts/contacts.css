@@ -644,9 +644,6 @@
 
 /* Responsive: <=1300px layouts. */
 @media screen and (max-width: 1300px) {
-    .contacts-links { gap: 1.3333rem; }
-    .contacts-links__title { font-size: 2.2222rem; }
-    .contacts-links__cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
     .contacts-representations__title {
         font-size: 2.2222rem;
@@ -784,25 +781,6 @@
         min-height: 33.3333rem;
     }
 
-    .contacts-links {
-        gap: 1.6667rem;
-        padding: 2.2222rem;
-    }
-
-    .contacts-links__title {
-        font-size: 1.3333rem;
-        line-height: 1.7778rem;
-    }
-
-    .contacts-links__cards {
-        gap: 0.2778rem;
-        padding: 1.8333rem 1.3333rem;
-    }
-
-    .contacts-links__card {
-        padding: 1.1111rem;
-    }
-
     .contacts-representations {
         gap: 30px;
         padding: 40px;
@@ -933,16 +911,6 @@
 
     .contacts__phone-card:last-child {
         grid-column: 1 / -1;
-    }
-
-    .contacts-links {
-        gap: 1.3333rem;
-        padding: 0;
-    }
-
-    .contacts-links__title {
-        font-size: 2.2222rem;
-        line-height: 2.4444rem;
     }
 
     .contacts-representations {
@@ -1120,6 +1088,58 @@
         grid-column: auto;
     }
 
+    .contacts-links__card--social
+}
+
+/* contacts-links responsive layouts, ordered from widest to narrowest. */
+@media screen and (max-width: 1300px) {
+    .contacts-links {
+        gap: 1.3333rem;
+    }
+
+    .contacts-links__title {
+        font-size: 2.2222rem;
+    }
+
+    .contacts-links__cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .contacts-links {
+        gap: 1.6667rem;
+        padding: 2.2222rem;
+    }
+
+    .contacts-links__title {
+        font-size: 1.3333rem;
+        line-height: 1.7778rem;
+    }
+
+    .contacts-links__cards {
+        gap: 0.2778rem;
+        padding: 1.8333rem 1.3333rem;
+    }
+
+    .contacts-links__card {
+        padding: 1.1111rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .contacts-links {
+        gap: 1.3333rem;
+        padding: 0;
+    }
+
+    .contacts-links__title {
+        font-size: 2.2222rem;
+        line-height: 2.4444rem;
+    }
+}
+
+@media screen and (max-width: 680px) {
     .contacts-links {
         align-items: stretch;
         gap: 1rem;
@@ -1142,7 +1162,7 @@
     }
 
     .contacts-links__cards {
-        grid-template-columns: minmax(0, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 0.2778rem;
         padding: 0.7778rem;
         border-radius: 1rem;
@@ -1154,11 +1174,7 @@
         border-radius: 0.7778rem;
     }
 
-    .contacts-links__label {
-        font-size: 0.8889rem;
-        line-height: 1.5;
-    }
-
+    .contacts-links__label,
     .contacts-links__value {
         font-size: 0.8889rem;
         line-height: 1.5;
