@@ -254,168 +254,6 @@
     border: 0;
 }
 
-@media screen and (max-width: 1500px) {
-    .contacts__requisites {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .contacts__download {
-        min-height: 6rem;
-    }
-
-    .contacts__phone-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .contacts__phone-card:last-child {
-        grid-column: 1 / -1;
-    }
-}
-
-/* Figma 1857:103812 — tablet layout at 1024px. */
-@media screen and (min-width: 1001px) and (max-width: 1100px) {
-    .contacts__layout {
-        grid-template-columns: minmax(0, 1fr);
-    }
-
-    .contacts__office-data {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        align-items: stretch;
-        gap: 0.2778rem;
-    }
-
-    .contacts__phone-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    .contacts__phone-card:last-child {
-        grid-column: auto;
-    }
-
-    .contacts__visual {
-        min-height: 33.3333rem;
-    }
-
-    .contacts__map {
-        min-height: 33.3333rem;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .contacts {
-        padding: 1.3333rem;
-    }
-
-    .contacts__layout {
-        grid-template-columns: 1fr;
-    }
-
-    .contacts__visual {
-        min-height: 24rem;
-    }
-
-    .contacts__map {
-        min-height: 24rem;
-    }
-
-    .contacts__phone-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
-@media screen and (max-width: 680px) {
-    .contacts {
-        padding: 2.2222rem 0.5556rem;
-    }
-
-    .contacts__container {
-        gap: 1rem;
-    }
-
-    .contacts__breadcrumbs {
-        justify-content: center;
-        gap: 1.1111rem;
-        font-size: 0.7778rem;
-        line-height: 1.4444;
-    }
-
-    .contacts__title {
-        align-self: center;
-        font-size: 1.3333rem;
-        line-height: 1.3333;
-    }
-
-    .contacts__layout {
-        gap: 0.2222rem;
-        padding: 0.2222rem;
-        border-radius: 0.7778rem;
-    }
-
-    .contacts__panel {
-        gap: 1.1111rem;
-        padding: 1rem;
-        border-radius: 1rem;
-    }
-
-    .contacts__panel-title {
-        font-size: 0.8889rem;
-        line-height: 1.5556;
-    }
-
-    .contacts__office-data {
-        gap: 0.2778rem;
-    }
-
-    .contacts__address-card,
-    .contacts__requisite,
-    .contacts__phone-card {
-        padding: 1.1111rem;
-    }
-
-    .contacts__requisites,
-    .contacts__phone-grid {
-        grid-template-columns: minmax(0, 1fr);
-        gap: 0.2778rem;
-    }
-
-    .contacts__label {
-        font-size: 0.8889rem;
-    }
-
-    .contacts__value {
-        font-size: 0.7778rem;
-        line-height: 1.5;
-    }
-
-    .contacts__phone-number {
-        font-size: 0.8889rem;
-    }
-
-    .contacts__phones {
-        gap: 1.1111rem;
-    }
-
-    .contacts__visual {
-        min-height: 33.3333rem;
-    }
-
-    .contacts__map {
-        min-height: 33.3333rem;
-    }
-
-    .contacts__phone-card:last-child {
-        grid-column: auto;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .contacts__phone-card {
-        padding: 1.1111rem;
-    }
-}
-
-/* Figma 1857:103450 — contact channels. */
 .contacts-links {
     display: flex;
     flex-direction: column;
@@ -499,97 +337,6 @@
 }
 .contacts-links__value:focus-visible,
 .contacts-links__social-link:focus-visible { outline: 0.1111rem solid #324C88; outline-offset: 0.1667rem; }
-/* Figma 1857:103892 — contacts block at 1024px. */
-@media screen and (min-width: 1001px) and (max-width: 1100px) {
-    .contacts-links {
-        gap: 1.6667rem;
-        padding: 2.2222rem;
-    }
-
-    .contacts-links__title {
-        font-size: 1.3333rem;
-        line-height: 1.7778rem;
-    }
-
-    .contacts-links__cards {
-        gap: 0.2778rem;
-        padding: 1.8333rem 1.3333rem;
-    }
-
-    .contacts-links__card {
-        padding: 1.1111rem;
-    }
-}
-
-@media screen and (max-width: 1300px) {
-    .contacts-links { gap: 1.3333rem; }
-    .contacts-links__title { font-size: 2.2222rem; }
-    .contacts-links__cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
-@media screen and (max-width: 680px) {
-    .contacts-links {
-        align-items: stretch;
-        gap: 1rem;
-        padding: 1.1111rem 0.7778rem;
-        border-radius: 0.5556rem;
-        background: #FFFFFF;
-    }
-
-    .contacts-links__title {
-        align-self: center;
-        max-width: 100%;
-        font-size: 1.1111rem;
-        line-height: 1.5556rem;
-        white-space: nowrap;
-    }
-
-    .contacts-links__frame {
-        padding: 0.2222rem;
-        border-radius: 0.7778rem;
-    }
-
-    .contacts-links__cards {
-        grid-template-columns: minmax(0, 1fr);
-        gap: 0.2778rem;
-        padding: 0.7778rem;
-        border-radius: 1rem;
-    }
-
-    .contacts-links__card {
-        gap: 0.5556rem;
-        padding: 1.1111rem;
-        border-radius: 0.7778rem;
-    }
-
-    .contacts-links__label {
-        font-size: 0.8889rem;
-        line-height: 1.5;
-    }
-
-    .contacts-links__value {
-        font-size: 0.8889rem;
-        line-height: 1.5;
-    }
-
-    .contacts-links__card--social .contacts-links__label {
-        font-size: 1rem;
-    }
-
-    .contacts-links__socials {
-        gap: 0.5556rem;
-    }
-
-    .contacts-links__social-link {
-        padding: 0.3333rem 0.4444rem;
-    }
-
-    .contacts-links__social-link img {
-        width: 1.1111rem;
-        height: 1.1111rem;
-    }
-}
-
-/* Figma 1857:103489 — Представительства, desktop 1920px. */
 .contacts-representations {
     display: flex;
     flex-direction: column;
@@ -775,61 +522,30 @@
     display: none;
 }
 
-@media screen and (max-width: 1300px) {
-    .contacts-representations__title {
-        font-size: 2.2222rem;
-    }
+/* Responsive rules are ordered from the widest breakpoint to the narrowest. */
 
-    .contacts-representations__hotline {
-        font-size: 1rem;
-    }
-
-    .contacts-representations__grid {
+/* Responsive: wide desktop and intermediate layouts. */
+@media screen and (max-width: 1500px) {
+.contacts__requisites {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+
+    .contacts__download {
+        min-height: 6rem;
+    }
+
+    .contacts__phone-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .contacts__phone-card:last-child {
+        grid-column: 1 / -1;
+    }
 }
 
-@media screen and (max-width: 1000px) {
-    .contacts-representations {
-        padding: 1.3333rem;
-    }
-
-    .contacts-representations__grid {
-        grid-template-columns: minmax(0, 1fr);
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .contacts-representations {
-        gap: 1.1111rem;
-        padding: 1rem;
-    }
-
-    .contacts-representations__title {
-        font-size: 1.6667rem;
-    }
-
-    .contacts-representations__filters {
-        width: 100%;
-    }
-
-    .contacts-representations__filter {
-        flex: 1 1 auto;
-        padding: 0.5556rem 0.6667rem;
-        font-size: 0.7778rem;
-    }
-
-    .contacts-representations__hotline {
-        font-size: 0.8889rem;
-    }
-
-}
-
-
-/* Figma 1857:103685 — точная desktop-компоновка для viewport 1440px.
-   Базовые правила выше сохраняют исходное состояние для 1920px. */
-@media screen and (min-width: 1301px) and (max-width: 1440px) {
-    .contacts-representations {
+/* Figma 1857:103685 — 1440px representations layout. */
+@media screen and (max-width: 1440px) {
+.contacts-representations {
         gap: 30px;
         padding: 40px;
         border-radius: 20px;
@@ -924,10 +640,74 @@
     }
 }
 
+/* Responsive: <=1300px layouts. */
+@media screen and (max-width: 1300px) {
+.contacts-links { gap: 1.3333rem; }
+    .contacts-links__title { font-size: 2.2222rem; }
+    .contacts-links__cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
-/* Figma 1857:103934 — tablet landscape, viewport 1024px. */
-@media screen and (min-width: 1001px) and (max-width: 1100px) {
-    .contacts-representations {
+.contacts-representations__title {
+        font-size: 2.2222rem;
+    }
+
+    .contacts-representations__hotline {
+        font-size: 1rem;
+    }
+
+    .contacts-representations__grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Figma tablet layouts: 1024px references. */
+@media screen and (max-width: 1100px) {
+.contacts__layout {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .contacts__office-data {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: stretch;
+        gap: 0.2778rem;
+    }
+
+    .contacts__phone-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .contacts__phone-card:last-child {
+        grid-column: auto;
+    }
+
+    .contacts__visual {
+        min-height: 33.3333rem;
+    }
+
+    .contacts__map {
+        min-height: 33.3333rem;
+    }
+
+.contacts-links {
+        gap: 1.6667rem;
+        padding: 2.2222rem;
+    }
+
+    .contacts-links__title {
+        font-size: 1.3333rem;
+        line-height: 1.7778rem;
+    }
+
+    .contacts-links__cards {
+        gap: 0.2778rem;
+        padding: 1.8333rem 1.3333rem;
+    }
+
+    .contacts-links__card {
+        padding: 1.1111rem;
+    }
+
+.contacts-representations {
         gap: 30px;
         padding: 40px;
         border-radius: 20px;
@@ -1020,11 +800,321 @@
     }
 }
 
+/* Responsive: <=1000px overrides for tablet and smaller screens. */
+@media screen and (max-width: 1000px) {
+.contacts {
+        padding: 1.3333rem;
+    }
 
-/* Figma 1857:104198 — mobile representation section (360px reference).
-   The desktop/tablet layouts above remain the source for larger viewports. */
-@media screen and (max-width: 600px) {
+    .contacts__layout {
+        grid-template-columns: 1fr;
+    }
+
+    .contacts__visual {
+        min-height: 24rem;
+    }
+
+    .contacts__map {
+        min-height: 24rem;
+    }
+
+    .contacts__phone-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+.contacts-representations {
+        padding: 1.3333rem;
+    }
+
+    .contacts-representations__grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+
+    /* Restore the regular <=1000px layout after the 1024px-specific rules. */
+    .contacts__office-data {
+        display: flex;
+        flex-direction: column;
+        gap: 1.6667rem;
+    }
+
+    .contacts__phone-card:last-child {
+        grid-column: 1 / -1;
+    }
+
+    .contacts-links {
+        gap: 1.3333rem;
+        padding: 0;
+    }
+
+    .contacts-links__title {
+        font-size: 2.2222rem;
+        line-height: 2.4444rem;
+    }
+
     .contacts-representations {
+        gap: 1.6667rem;
+        padding: 1.3333rem;
+        border-radius: 1.1111rem;
+    }
+
+    .contacts-representations__title {
+        font-size: 2.2222rem;
+        line-height: 1.1667;
+    }
+
+    .contacts-representations__filters {
+        gap: 0.2222rem;
+        padding: 0.2222rem;
+        border-radius: 0.5556rem;
+    }
+
+    .contacts-representations__filter {
+        min-height: 3.1667rem;
+        padding: 0.7778rem 1rem;
+        border-radius: 0.7778rem;
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .contacts-representations__hotline {
+        font-size: 1rem;
+    }
+
+    .contacts-representations__frame {
+        padding: 0.2222rem;
+        border-radius: 0.7778rem;
+    }
+
+    .contacts-representations__grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0.2778rem;
+        padding: 0.7778rem;
+        border-radius: 1rem;
+    }
+
+    .contacts-representations__card {
+        gap: 1.1111rem;
+        padding: 1.1111rem;
+        border-radius: 0.7778rem;
+    }
+
+    .contacts-representations__card-title {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .contacts-representations__address {
+        font-size: 0.8333rem;
+        line-height: 1.5;
+    }
+
+    .contacts-representations__contacts {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.2778rem;
+    }
+
+    .contacts-representations__contact {
+        gap: 0.2222rem;
+        padding: 0.7778rem 1rem;
+        border-radius: 0.7778rem;
+        font-size: 0.7778rem;
+        line-height: 1.6;
+    }
+
+    .contacts-representations__contact strong {
+        font-size: 0.7778rem;
+    }
+
+    .contacts-representations__contact span {
+        font-size: 0.6667rem;
+    }
+
+    .contacts-representations__more {
+        gap: 0.7778rem;
+        font-size: 1.2222rem;
+        line-height: 1.4;
+    }
+
+    .contacts-representations__more svg {
+        width: 1.3333rem;
+        height: 1.3333rem;
+    }
+}
+
+/* Figma 1857:104076 — compact contact layout. */
+@media screen and (max-width: 680px) {
+.contacts {
+        padding: 2.2222rem 0.5556rem;
+    }
+
+    .contacts__container {
+        gap: 1rem;
+    }
+
+    .contacts__breadcrumbs {
+        justify-content: center;
+        gap: 1.1111rem;
+        font-size: 0.7778rem;
+        line-height: 1.4444;
+    }
+
+    .contacts__title {
+        align-self: center;
+        font-size: 1.3333rem;
+        line-height: 1.3333;
+    }
+
+    .contacts__layout {
+        gap: 0.2222rem;
+        padding: 0.2222rem;
+        border-radius: 0.7778rem;
+    }
+
+    .contacts__panel {
+        gap: 1.1111rem;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .contacts__panel-title {
+        font-size: 0.8889rem;
+        line-height: 1.5556;
+    }
+
+    .contacts__office-data {
+        gap: 0.2778rem;
+    }
+
+    .contacts__address-card,
+    .contacts__requisite,
+    .contacts__phone-card {
+        padding: 1.1111rem;
+    }
+
+    .contacts__requisites,
+    .contacts__phone-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0.2778rem;
+    }
+
+    .contacts__label {
+        font-size: 0.8889rem;
+    }
+
+    .contacts__value {
+        font-size: 0.7778rem;
+        line-height: 1.5;
+    }
+
+    .contacts__phone-number {
+        font-size: 0.8889rem;
+    }
+
+    .contacts__phones {
+        gap: 1.1111rem;
+    }
+
+    .contacts__visual {
+        min-height: 33.3333rem;
+    }
+
+    .contacts__map {
+        min-height: 33.3333rem;
+    }
+
+    .contacts__phone-card:last-child {
+        grid-column: auto;
+    }
+
+.contacts-links {
+        align-items: stretch;
+        gap: 1rem;
+        padding: 1.1111rem 0.7778rem;
+        border-radius: 0.5556rem;
+        background: #FFFFFF;
+    }
+
+    .contacts-links__title {
+        align-self: center;
+        max-width: 100%;
+        font-size: 1.1111rem;
+        line-height: 1.5556rem;
+        white-space: nowrap;
+    }
+
+    .contacts-links__frame {
+        padding: 0.2222rem;
+        border-radius: 0.7778rem;
+    }
+
+    .contacts-links__cards {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0.2778rem;
+        padding: 0.7778rem;
+        border-radius: 1rem;
+    }
+
+    .contacts-links__card {
+        gap: 0.5556rem;
+        padding: 1.1111rem;
+        border-radius: 0.7778rem;
+    }
+
+    .contacts-links__label {
+        font-size: 0.8889rem;
+        line-height: 1.5;
+    }
+
+    .contacts-links__value {
+        font-size: 0.8889rem;
+        line-height: 1.5;
+    }
+
+    .contacts-links__card--social .contacts-links__label {
+        font-size: 1rem;
+    }
+
+    .contacts-links__socials {
+        gap: 0.5556rem;
+    }
+
+    .contacts-links__social-link {
+        padding: 0.3333rem 0.4444rem;
+    }
+
+    .contacts-links__social-link img {
+        width: 1.1111rem;
+        height: 1.1111rem;
+    }
+}
+
+/* Figma 1857:104198 — mobile representations layout. */
+@media screen and (max-width: 600px) {
+.contacts-representations {
+        gap: 1.1111rem;
+        padding: 1rem;
+    }
+
+    .contacts-representations__title {
+        font-size: 1.6667rem;
+    }
+
+    .contacts-representations__filters {
+        width: 100%;
+    }
+
+    .contacts-representations__filter {
+        flex: 1 1 auto;
+        padding: 0.5556rem 0.6667rem;
+        font-size: 0.7778rem;
+    }
+
+    .contacts-representations__hotline {
+        font-size: 0.8889rem;
+    }
+
+.contacts-representations {
         align-items: center;
         gap: 18px;
         padding: 20px 14px;
@@ -1132,5 +1222,12 @@
     .contacts-representations__more svg {
         width: 24px;
         height: 24px;
+    }
+}
+
+/* Responsive: narrow mobile adjustments. */
+@media screen and (max-width: 480px) {
+.contacts__phone-card {
+        padding: 1.1111rem;
     }
 }
