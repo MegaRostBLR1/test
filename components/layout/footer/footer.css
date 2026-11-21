@@ -55,6 +55,7 @@
 }
 
 .footer__legal-top {
+  font-family: "Onest-Medium", sans-serif;
   width: 354px;
   max-width: 100%;
   color: #ffffffcc;
@@ -64,6 +65,7 @@
 }
 
 .footer__copyright-system {
+  font-family: "Onest-Regular", sans-serif;
   width: 222px;
   color: #ffffffcc;
   font-size: 18px;
@@ -86,6 +88,7 @@
 }
 
 .footer__copyright-company {
+  font-family: "Onest-Regular", sans-serif;
   max-width: 586px;
   margin: 0;
   font-size: 18px;
@@ -98,6 +101,7 @@
 }
 
 .footer__social-title {
+  font-family: "Onest-Bold", sans-serif;
   margin-bottom: 24px;
   font-size: 18px;
   font-weight: 700;
@@ -175,6 +179,7 @@
 }
 
 .footer__contact-title {
+  font-family: "Onest-Medium", sans-serif;
   margin-bottom: 12px;
   font-size: 20px;
   font-weight: 500;
@@ -183,6 +188,7 @@
 
 .footer__contact-text,
 .footer__contact-extra-text {
+  font-family: "Onest-Regular", sans-serif;
   color: #ffffffcc;
   font-size: 18px;
   line-height: 28px;
@@ -190,6 +196,11 @@
 
 .footer__contact-extra-text {
   margin-top: 0;
+}
+
+.footer__contact-extra-text .white-text {
+  font-family: "Onest-Medium", sans-serif;
+  font-weight: 500;
 }
 
 .footer__section--accordion,
@@ -208,6 +219,7 @@
 }
 
 .footer-accordion__title {
+  font-family: "Onest-Medium", sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 44px;
@@ -236,6 +248,7 @@
 }
 
 .footer-accordion__nav-item {
+  font-family: "Onest-Medium", sans-serif;
   padding-left: 16px;
   background-image: url(../../../static/images/footer/arr-ic.svg);
   background-position: left center;
@@ -272,12 +285,14 @@
 }
 
 .footer__subscribe-title {
+  font-family: "Onest-Regular", sans-serif;
   margin-bottom: 18px;
   font-size: 22px;
   line-height: 28px;
 }
 
 .footer__subscribe-btn {
+  font-family: "Onest-SemiBold", sans-serif;
   width: 266px;
   max-width: 100%;
   margin-bottom: 18px;
@@ -291,6 +306,7 @@
 }
 
 .footer__subscribe-agreement {
+  font-family: "Onest-Medium", sans-serif;
   color: #ffffffcc;
   font-size: 16px;
   font-weight: 500;
@@ -313,6 +329,7 @@
 }
 
 .footer__legal-link {
+  font-family: "Onest-Medium", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -436,6 +453,7 @@
   }
 
   .footer-accordion__title {
+    font-family: "Onest-Regular", sans-serif;
     font-size: 24px;
     line-height: 32px;
   }
