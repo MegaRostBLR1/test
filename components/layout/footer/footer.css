@@ -359,14 +359,6 @@
     gap: 36px;
   }
 
-  .footer__bottom-main {
-    gap: 96px;
-  }
-
-  .footer__subscribe {
-    flex-basis: 286px;
-    max-width: 286px;
-  }
 }
 
 @media (max-width: 1300px) {
